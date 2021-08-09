@@ -1,8 +1,7 @@
 Pokemon game
 -----------------
 
-**picture - icon**
-
+![](https://github.com/avielc11/Pokemon_Game/blob/main/img/icon.png)
 
 
 the class Point presents a point.
@@ -41,11 +40,11 @@ in the best case O(1) - if the given number are equals then return 0 or only nod
 ## the game
 
 The game gets a directed graph which represents ways and targets,
-It also receives Pokemon placements from the server and places "agents" on points.
+It also receives *Pokemon* placements from the server and places *agents* on points.
 
 The purpose of the game is to catch a lot of Pokemon in the shortest time and "moves" as low as possible.
 
-The movement of "agents" between vertex works by the BFS method and each "agent" searches for the nearest Pokemon.
+The movement of "agents" between vertex works by the BFS method and each "agent" searches for the nearest Pokemon and the shortest path to the Pokemon.
 
 The game also shows this in the graphical interface which is created in the GUI
 
@@ -53,8 +52,9 @@ The game also shows this in the graphical interface which is created in the GUI
 
 1) The Main window will appear first and the player need to put his id and chose a level betwen 0 to 23 -> ([0,23]).
 
-**picture - open_screen**
+![](https://github.com/avielc11/Pokemon_Game/blob/main/img/open_screen.png)
 
+if the player give a wrong id or level then the game will display an error message accordingly.
 
 There are "options" that allow you to:
 * Start the game.
@@ -62,13 +62,17 @@ There are "options" that allow you to:
 * Uploads the result to the server.
 * Exit -> to Exit from the game.
 
-**picture - options**
+![](https://github.com/avielc11/Pokemon_Game/blob/main/img/options.png)
 
 After pressing the button to start the game, the game start to run and shown on screen the "agents" move to catch the Pokemon
 
-**picture - GamePlay11**
+For example scenario - 11
 
-**picture - GamePlay0**
+![](https://github.com/avielc11/Pokemon_Game/blob/main/img/GamePlay11.png)
+
+For example scenario - 0
+
+![](https://github.com/avielc11/Pokemon_Game/blob/main/img/GamePlay0.png)
 
 
 
