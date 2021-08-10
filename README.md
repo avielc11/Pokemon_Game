@@ -42,6 +42,9 @@ For example scenario - 0
 
 ![](https://github.com/avielc11/Pokemon_Game/blob/main/img/GamePlay0.png)
 
+***
+
+## information
 
 the class Point presents a point.
 
@@ -54,9 +57,6 @@ this class is part of the DWGraph_DS and present all the ribs that go to and go 
 
 the class Nodes has 3 constructors and present the information of a node_data type
 
-***
-
-## information
 
 the class WGraph_DS has one constructor and present the information of a directed_weighted_graph type.
 the WGraph_DS has the option to ask if two nodes are connected and get the wieght of the edge between them. connecet between two nodes with direction or disconnect,
